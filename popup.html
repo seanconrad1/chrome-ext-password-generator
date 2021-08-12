@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css" />
+  </head>
+
+  <body>
+    <div>Password Generator</div>
+    
+    <div class="input-and-button">
+      <input type="text" value=""></input>
+      <div id="copy-button"></div>
+    </div>
+
+    <div class="slidecontainer">
+      <div>
+        Password Size:
+        <div id='password-size'></div>
+      </div>
+      <input id="slider" type="range" min="1" max="30" value="15">
+    </div>
+
+    <div>Special Characters</div>
+    <input id="special-characters" checked="true" type="checkbox">
+
+    <div>Numbers</div>
+    <input id="numbers" checked="true" type="checkbox">
+
+    </input>
+    <script src="popup.js"></script>
+  </body>
+</html>

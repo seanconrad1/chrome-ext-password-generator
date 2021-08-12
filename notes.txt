@@ -1,0 +1,4 @@
+1. Popup for password creation
+2. show a random password
+3. allow copy to clipboard
+4. give options for length, special characters, numbers
